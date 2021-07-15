@@ -1,3 +1,7 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .big-button {
   width: 100px;
   height: 100px;
@@ -27,6 +31,18 @@
   height: 30px;
   border: none;
   border-radius: 7px;
+}
+
+.timer-warpper {
+  font-size: 2rem;
+  position: relative;
+  text-decoration: none;
+}
+.timer {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 5px;
 }
 
 .start-button {
